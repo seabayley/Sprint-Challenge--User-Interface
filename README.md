@@ -34,11 +34,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+	Semantic HTML is using HTML tags to provide meaning and context in addition to website presentation. It is human readable and gives context clues for people to more quickly and easily understand the HTML you have written. It also helps in establishing a design standard.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+	```display: inline;``` does not allow you to specifify height and width of the element and it will only be large enough to contain its contents. ```display: block;``` adds a new line preventing you from effectively placing elements next to each other unlike ```display: inline;```.
 
 3. What are the 4 areas of the box model?
 
+	The four areas of the box model are margin, border, padding, and content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+	The ```align-items: center;``` property works on the cross-axis of an element.
 
 5. Explain why git is valuable to a team of developers.
 
