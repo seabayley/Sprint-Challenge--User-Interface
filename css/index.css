@@ -140,6 +140,18 @@ p {
     margin: 15px 0px;
 }
 
+.middle-content--about__box .button:hover {
+    animation-name: button-hover;
+    animation-duration: 500ms;
+    background-color: lightgrey;
+  }
+
+  @keyframes button-hover {
+    100% {
+        background-color: darkgrey;
+    }
+  }
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
